@@ -17,5 +17,5 @@ Instructions
       lein spec -f d
 
 
-      This will recurse through the directory and look for any tests to run. The template creates
-      the first test which will fail. You are now ready to use TDD to learn clojure!
+  This will recurse through the directory and look for any tests to run. The template creates
+  the first test which will fail. You are now ready to use TDD to learn clojure!
