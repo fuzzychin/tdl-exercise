@@ -5,9 +5,9 @@ Instructions
 
 - Initialize your first project by running: 
 
-      ```
+      
       lein new speclj ex1
-      ```
+      
   
   This will create a new clojure project using the speclj template in the ex1 directory.
 
