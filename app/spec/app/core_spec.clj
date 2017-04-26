@@ -3,6 +3,14 @@
             [app.core :refer :all]
             [clojure.string :refer :all]))
 
-(describe "the joy of strings"
-  (it "FIXME, I fail."
-    (should= true (blank? ""))))
+(def my-func
+  "Foo")
+
+(describe "A named function"
+  (it "can call a named function"
+    (should= "Foo" my-func  )))
+
+(describe "Another named function"
+  (it "can call a named function that returns the value 2"
+    (should= 2 some-func  )))
+
