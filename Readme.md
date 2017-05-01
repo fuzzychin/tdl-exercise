@@ -3,5 +3,10 @@ Instructions
 
 - This branch has a simple failing test to verify your installation works.
 
-- Change your working directory to 'app': `cd app`
-- Run `../lein spec -f d`. This will run the lein too from the parent directory and reveal the failing test that you can go fix.
+- cd to the `./app` directory and run the command:
+
+
+      ../lein spec -f d
+
+
+- you should see a failing test that you can fix to pass.
