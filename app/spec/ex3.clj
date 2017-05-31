@@ -1,7 +1,7 @@
 (ns app.core-spec
   (:require [speclj.core :refer :all]
             [app.core :refer :all]
-            [clojure.string :refer :all]))
+            ))
 
 (def my-func
   "Foo")
@@ -32,3 +32,15 @@
       ))
     (should= true (odd 3))
     (should= false (odd 4))))
+
+(describe "Multi Arity Functions"
+  (it "dpending on how many arguments are passed [pg67-68]"
+    ))
+(describe "Destructuring"
+  (it "[pg68]"
+    ))
+(describe "anonymous functions"
+  (it "[pg71]"
+    ))
+
+
