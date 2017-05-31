@@ -19,3 +19,7 @@
   (it "takes a number parameter and returns its square"
     (should= 4 (square-func 2))))
 
+(describe "Branching logic"
+(it "a function with branching logic to determin odd/even" 
+    (should= true (odd 3))
+    (should= false (odd 4))))
