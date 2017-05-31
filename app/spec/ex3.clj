@@ -22,3 +22,13 @@
   (it "takes a number parameter and returns its square"
     (should= 4 (square-func 2))))
 
+(describe "Branching logic"
+(it "a function with branching logic to determin odd/even" 
+    (defn odd
+      [input]
+      (if (= 1 (mod input 2))
+        true
+        false
+      ))
+    (should= true (odd 3))
+    (should= false (odd 4))))
