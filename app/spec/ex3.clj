@@ -11,6 +11,14 @@
     (should= "Foo" my-func  )))
 
 (describe "Another named function"
+  (def some-func 2)
   (it "can call a named function that returns the value 2"
     (should= 2 some-func  )))
+
+(describe "Passing Parameters to functions using defn"
+  (defn square-func 
+    [x] 
+    (* x x )) 
+  (it "takes a number parameter and returns its square"
+    (should= 4 (square-func 2))))
 
