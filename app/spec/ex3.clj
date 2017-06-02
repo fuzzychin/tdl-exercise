@@ -23,3 +23,21 @@
 (it "a function with branching logic to determin odd/even" 
     (should= true (odd 3))
     (should= false (odd 4))))
+
+(describe "Multi Arity Functions"
+(defn multi-airty 
+  ([arg1]
+   "one")
+  ([arg1 arg2] 
+   "two"))
+(it "depending on how many arguments are passed a different branch is executed"
+    (should= "one" (multi-airty 1))
+    (should= "two" (multi-airty 1 1))
+    (should= "three" (multi-airty 1 1 1))))
+
+
+(describe "Anonymous functions"
+  (it "I can create an anonymous function to make a square of a num"
+    ;; ((fn [x] (+ x x)) 2) <= this anonymous function adds two numbers
+    ))
+
