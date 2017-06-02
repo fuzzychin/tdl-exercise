@@ -17,3 +17,6 @@
 (describe "Sets"
   (it "works like a clojure Set"
     ))
+(describe "Destructuring"
+  (it "[pg68]"
+    ))
