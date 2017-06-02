@@ -47,7 +47,7 @@
     (should= "three" (multi-airty 1 1 1))))
 
 
-(describe "Anonymous founctions"
+(describe "Anonymous functions"
   (it "I can create an anonymous function to make a square of a num"
       (should= 4 ((fn [x] (* x x)) 2))))
 
