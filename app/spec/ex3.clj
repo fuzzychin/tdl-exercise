@@ -1,7 +1,7 @@
 (ns app.core-spec
   (:require [speclj.core :refer :all]
             [app.core :refer :all]
-            [clojure.string :refer :all]))
+            ))
 
 (def my-func
   "Foo")
