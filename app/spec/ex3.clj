@@ -38,6 +38,7 @@
 
 (describe "Anonymous functions"
   (it "I can create an anonymous function to make a square of a num"
-    ;; ((fn [x] (+ x x)) 2) <= this anonymous function adds two numbers
+    ;;Hint: ((fn [x] (+ x x)) 2) <= this anonymous function adds two numbers
+    ;;                         it is passed '2' and will return 4
     ))
 
