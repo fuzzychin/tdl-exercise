@@ -3,5 +3,5 @@
             [app.core :refer :all]))
 
 (describe "a test"
-  (it "passes"
-    (should= 1 1)))
+  (it "FIXME, I fail."
+    (should= 0 1)))
