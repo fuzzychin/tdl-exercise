@@ -20,6 +20,7 @@
   (it "Get the first element of a Vector"
     (def cities ["London" "New York" "Chicago" "Denver"]) 
     (should= "London" "some index")))
+
 (describe "Lsts"
   (it "I create a list using parenthesis"
     (def my-list '(1 2 3))
@@ -28,6 +29,7 @@
   (it "I can also create a list using the 'list' function"
     (def my-list (list "homer" "marge" "bart"))
     (should= "marge" "get element")))
+
 (describe "Sets"
   (it "I can create a list of unique values using the hash-set function"
       (def my-set (hash-set "homer" 1 1 "homer" "marge"))
