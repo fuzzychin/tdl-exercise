@@ -6,5 +6,5 @@ Instructions
 - Checkout the `ex1` branch and follow further instructions in the Readme.md file from that branch. 
 
 
-### Link to slides:
+### TDL Presentation:
 https://adilkhn.github.io/clojure-tdl/docs/reveal/#/
